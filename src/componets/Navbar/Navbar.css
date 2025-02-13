@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600;700;800;900&family=Roboto&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 40 px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.navbar-logo img {
+  margin-top: 15px;
+  height: auto;
+  width: 150px;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #fb8500;
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  cursor: pointer;
+}
+.navbar-btn-cart {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-sign-up {
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: #fb8500;
+  cursor: pointer;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.add-cart-counter {
+  position: relative;
+  right: 20px;
+  bottom: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #fb8500;
+  border-radius: 50%;
+  padding: 5px 8px;
+}

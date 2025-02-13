@@ -1,0 +1,28 @@
+.Sign-up {
+  border: 5px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  gap: 10px;
+}
+
+.input-fields input {
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
